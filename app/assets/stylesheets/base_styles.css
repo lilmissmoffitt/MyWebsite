@@ -1,0 +1,102 @@
+/*img {
+	max-width:100%;
+    height:auto;
+}*/
+head{
+}
+a{
+	text-decoration: none;
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+a:hover {
+
+	text-decoration: none;
+	background-color: none;
+}
+h1{
+	color: darkseagreen;
+	font-family: 'Amatic SC', cursive;
+	font-size: 300%;
+}
+hr{
+	margin-bottom: 4px;
+	margin-top: 5px;
+}
+p{
+	word-wrap: normal;
+	font-family: 'Raleway', sans-serif;
+}
+.indent{
+	margin-left: 60px;
+	margin-right: 60px;
+}
+.profile_picture{
+	background-image: url("Melissa");
+	height: 700px;
+	width: 800px;
+	float: right;
+}
+.connect_background{
+	background-image: url("IMG_5512");
+	height: 800px;
+	text-align: center;
+	
+}
+.connect_form{
+	background-color: white;
+	width: 500px;
+	height: 300px;
+	border: 8px darkseagreen solid;
+	margin: auto;
+	margin-top: 0px;
+	text-align: center;
+	padding-top: 20px;
+}
+.connect_form_elements{
+	margin: 15px;
+}
+
+.background_image{
+	background-image: url("IMG_5512");
+	height: 400px;
+	width: 100%;
+	background-size: 120% 120%;
+	border: 3px black solid;
+}
+.page_titles{
+	width: 400px;
+	margin: auto;
+	text-align: center;
+}
+#title{
+	color: slategray;
+	font-family: 'Amatic SC', cursive;
+	font-size: 65px
+}
+#subtitle{
+
+	color: darkslategray;
+    font-family:'Great Vibes', cursive;
+    font-size: 40px;
+}
+.buttons{
+	font-family:'Amatic SC', cursive;
+	font-size: 150%;
+	text-decoration: none;
+	color: slategray;
+	margin-top:10px;
+	
+}
+.buttons:hover{
+	font-family:'Amatic SC', cursive;
+	font-size: 150%;
+	text-decoration: none;
+	color: darkseagreen;
+	
+}
+#Navbar{
+	display: block;
+	text-align: center;
+}

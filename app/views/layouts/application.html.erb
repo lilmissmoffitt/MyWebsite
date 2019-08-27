@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MyWebsite</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Great+Vibes|IBM+Plex+Sans|Raleway&display=swap" rel="stylesheet">
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <p id="top"></p>
+  <div class="page_titles">
+    <h1 ID="title">MELISSA MOFFITT</h1>
+    <h3 ID="subtitle">lilmissmoffitt</h3>
+  </div>
+  <hr>
+    
+  <div id="Navbar">
+    
+      <%= link_to "HOME", root_path, class: "buttons" %> 
+      <%= link_to "ABOUT ME", about_me_path, class: "buttons" %>
+      <%= link_to "PORTFOLIO", portfolio_path, class: "buttons" %> 
+      <%= link_to "CONNECT", connect_path, class: "buttons" %> 
+      <%= link_to "BLOG", blog_path, class: "buttons" %>  
+     
+  </div>
+  <hr>
+    <%= yield %>
+
+    <footer></footer>
+  </body>
+</html>

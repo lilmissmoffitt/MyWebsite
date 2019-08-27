@@ -1,0 +1,2 @@
+class PortfolioPiece < ApplicationRecord
+end
