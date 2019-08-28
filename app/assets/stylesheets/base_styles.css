@@ -38,6 +38,16 @@ p{
 	width: 800px;
 	float: right;
 }
+.column{
+	height: 200px;
+	width: 200px;
+	float: left;
+}
+.outside_the_office{
+	height: 800px;
+	margin-right: 0px;
+	overflow: hidden;
+}
 .connect_background{
 	background-image: url("IMG_5512");
 	height: 800px;
